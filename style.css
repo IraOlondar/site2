@@ -129,3 +129,143 @@ img {
     margin: 20px auto 0;
     padding: 70px 0 60px;
 }
+
+.main__features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features__item {
+    padding: 20px;
+}
+
+.features__title {
+    margin: 25px 0 17px;
+    color: #000;
+    font-size: 24px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.features__description {
+    display: flex;
+    width: 310px;
+    height: 42px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #666;
+    font-size: 15px;
+    font-family: Gilroy-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.features__more {
+    margin-top: 25px;
+    color: #000;
+    font-size: 11px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.service__box {
+    max-width: 682px;
+    margin: 92px auto 25px;
+    text-align: center;
+}
+
+.service__box_title {
+    margin-bottom: 19px;
+    color: #000;
+    font-size: 45px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.service__box_text {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    font-family: Gilroy-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.service__items {
+    display: flex;
+    gap: 9px;
+    justify-content: space-between;
+}
+
+.service__item img {
+    width: 100%;
+    height: auto;
+}
+
+.service__title {
+    margin-bottom: 22px;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.service__item {
+    
+}
+
+.service__description {
+    margin: auto;
+    display: flex;
+    width: 310px;
+    height: 63px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #AAA;
+    text-align: center;
+    font-size: 15px;
+    font-family: Gilroy-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.service__btn {
+    margin: 15px auto 0;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    flex-shrink: 0;
+    display: block;
+    padding: 15px 30px 15px 40px;
+    background: #F25822;
+    cursor: pointer;
+}
+
+.service__btn span {
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.service__btn span::after {
+    content:'\203A';
+    font-size: 13px;
+    margin-left: 5px;
+}
+

@@ -12,19 +12,18 @@
 <body>
     <div class="header">
         <div class="header__wrapper container">
-            <img src="./img/Logo.png" alt="logo">
+            <a href="./index.html"><img src="./img/Logo.png" alt="logo"></a>
             <nav class="navigation">
-                <a class="link" href="#">Home</a>
-                <a class="link" href="#">About Us</a>
+                <a class="link" href="#link_home">Home</a>
+                <a class="link" href="#link_brand">About Us</a>
                 <a class="link" href="#">Services</a>
-                <select class="select__nav" name="" id="">
-                    <option value="def" selected>
-                        <a class="link" href="#">Features</a>
-                    </option>
-                    <option value="">Lorem.</option>
-                    <option value="">Lorem.</option>
-                    <option value="">Lorem.</option>
-                </select>
+                <a class="link" href="#link_features">Features
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                            <path d="M1 1L4 4L7 1" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                </a>
                 <a class="link" href="#">Team</a>
                 <a class="link" href="#">Blog</a>
                 <a class="link" href="#">Contact</a>
@@ -32,7 +31,7 @@
         </div>
     </div>
     <div class="main">
-        <section class="main__content container">
+        <section id="link_home" class="main__content container">
             <div class="main__contnt__text">
                 <h1 class="big-title">SEO & Digital Marketing For Your Website.</h1>
                 <p class="text">Provide all kind of seo services and help to improve seo ranking. Globally incubate
@@ -44,8 +43,8 @@
             </div>
             <img class="img-right" src="./img/lorem.png" alt="lorem">
         </section>
-        <section>
-            <article class="logos container">
+        <section id="link_brand" class="main__brand container">
+            <article class="logos">
                 <img src="./img/liva.png" alt="liva">
                 <img src="./img/kamba.png" alt="kamba">
                 <img src="./img/amara.png" alt="amara">
@@ -53,6 +52,59 @@
                 <img src="./img/hexlab.png" alt="hexlab">
                 <img src="./img/kamba.png" alt="kamba">
             </article>
+        </section>
+        <section id="link_features" class="main__features container">
+            <div class="features__item item1">
+                <img src="./img/grow.png" alt="grow">
+                <div class="features__title">Grow Your Business</div>
+                <p class="features__description">Leverage agile frameworks to provide a robust synopsis for high
+                    level overviews.</p>
+                <div class="features__more">Read More...</div>
+            </div>
+            <div class="features__item item2">
+                <img src="./img/lead.png" alt="lead">
+                <div class="features__title">Get Quality Ieads</div>
+                <p class="features__description">Leverage agile frameworks to provide a robust synopsis for high
+                    level overviews.</p>
+                <div class="features__more">Read More...</div>
+            </div>
+            <div class="features__item item3">
+                <img src="./img/sale.png" alt="sale">
+                <div class="features__title">Drive More Sales</div>
+                <p class="features__description">Leverage agile frameworks to provide a robust synopsis for high
+                    level overviews.</p>
+                <div class="features__more">Read More...</div>
+            </div>
+        </section>
+        <section id="link_services" class="main__service container">
+            <div class="service__box">
+                <div class="service__box_title">Why You Should Choose Us.</div>
+                <div class="service__box_text">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly
+                    coordinate e-business applications through revolutionary catalysts.</div>
+            </div>
+            <div class="service__items">
+                <div class="service__item">
+                    <img src="./img/b91bb0d6fe6570802388ea527cd7e709.png" alt="Keyword Research">
+                    <div class="service__title">Keyword Research</div>
+                    <p class="service__description">Business applications through revolutionary catalysts for chang the
+                        Seamlessly underwhelm dures.</p>
+                    <div class="service__btn"><span>Learn More</span></div>
+                </div>
+                <div class="service__item">
+                    <img src="./img/78b4e34b306a9b45d89ae6ecbd66e510 .png" alt="Seo Optimazadion">
+                    <div class="service__title">Seo Optimazadion</div>
+                    <p class="service__description">Business applications through revolutionary catalysts for chang the
+                        Seamlessly underwhelm dures.</p>
+                    <div class="service__btn"><span>Learn More</span></div>
+                </div>
+                <div class="service__item">
+                    <img src="./img/d38e3032c856e02f6ebd05ff385b383f.png" alt="Social Marketing">
+                    <div class="service__title">Social Marketing</div>
+                    <p class="service__description">Business applications through revolutionary catalysts for chang the
+                        Seamlessly underwhelm dures.</p>
+                    <div class="service__btn"><span>Learn More</span></div>
+                </div>
+            </div>
         </section>
     </div>
 </body>
